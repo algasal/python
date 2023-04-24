@@ -53,7 +53,6 @@ def obter_num_secreto():
     num_secreto = ''
     for i in range(MAX_DIGITOS):
         num_secreto += lista_nums[i]
-    print(num_secreto)
     return num_secreto
 
 def obter_dicas(num_tentado, num_secreto):
